@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,);
+    grid-template-rows: repeat(3, );
+    grid-template-areas: 
+    "header header header"
+    "new new2 aside"
+    "footer footer aside"
+}
+
+aside{
+    grid-area: aside;
+    background-color: gray;
+
+}
+
+header{
+    grid-area: header;
+    background-color: yellow;
+}
+
+#new{
+    grid-area: new;
+    background-color: red;
+}
+
+#new2{
+    grid-area: new2;
+    background-color: blue;
+}
+
+footer{
+    grid-area: footer;
+    background-color: violet;
+}

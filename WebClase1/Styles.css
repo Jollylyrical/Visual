@@ -1,0 +1,54 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    
+}
+
+#container{
+    border: solid gray;
+}
+#fotoper{
+    padding-top: 10px;
+    padding-left: 10px;
+    z-index: 2;
+    margin-left: 50px;
+    
+    width: 300px;
+    height: 300px;
+    /*    border-radius: 50px;
+    box-shadow: 5px 5px 10px; */
+}
+#Contacto{
+    z-index: 0;
+    border: solid black;
+    width: 25%;
+    height: 200vh;
+}
+.cajas{
+    display: inline-block;
+}
+#Caja{
+    z-index: 0;
+    margin-top: 1px;
+    
+    width: 70vw;
+    height: 100vh;
+    
+
+}
+#title{
+    text-align: center;
+}
+#desc{
+    text-align: justify;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bolder;
+}
+h2{
+    font-size: medium;
+    font-weight: lighter;
+}

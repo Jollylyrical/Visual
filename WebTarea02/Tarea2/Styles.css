@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: none;
+    border: solid black;
+    grid-area: config;
+}
+
+
+.imagc{
+    background-color: rgb(205, 218, 208);
+}
+
+#container{
+    height: 650vh;
+    width: 100vw;
+    border: solid black;
+}
+
+
+
+#imgH{
+    grid-area: header;
+    height: 100vh;
+    width: 100vw;
+    border: solid black;
+}
+
+
+.imagc{
+    height: 70vh;
+    width: 100vw;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#img1{
+    grid-area: i1;
+}
+
+#img2{
+    grid-area: i2;
+}
+
+#img3{
+    grid-area: i3;
+}
+
+
+
+#imgA{
+    height: 40vh;
+    width: 100vw;
+    border: solid black;
+    grid-area: ia;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+#ih{
+    display: block;
+    margin: auto;
+    height: 90vh;
+    width: 80vw;
+}
+
+#i1{
+    display: block;
+    margin: auto;
+    height: 45vh;
+    width: 25vw;
+}
+
+#i2{
+    display: block;
+    margin: auto;
+    height: 45vh;
+    width: 25vw;
+}
+#i3{
+    display: block;
+    margin: auto;
+    height: 45vh;
+    width: 25vw;
+}
+
+#ia{
+    display: block;
+    margin: auto;
+    height: 40vh;
+    width: 50vw;
+}
+
+#abt{
+    grid-area: abt ;
+}
+
+#sub{
+    grid-area: sub;
+}
+
+.btn2{
+    display: block;
+    margin: auto;
+}
+
+input{
+    display: block;
+    margin: auto;
+}
+
+.btn{
+    background-color: aliceblue;
+    height: 50vh;
+    width: 25vw;
+    align-self: center;
+}
+
+
+footer{
+    background-color: white;
+    grid-area: footer;
+}
+
+h2{
+    text-align: center;
+}
+#red{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+@media (min-width: 768px){  
+    header{
+        display: block;
+    }
+    #container{   
+        height: 700vh; 
+        display: grid;    
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 30px 20vh 70vh 200px repeat(3, 400px)  350px 50px;
+        grid-template-areas: 
+        "config config config config"
+        "header header header header"
+        "i1 i2 i2 i3" 
+        "ia ia abt abt"
+        "sub sub sub sub"
+        "sub sub sub sub"
+        "sub sub sub sub"
+        "footer footer footer footer"
+        "footer footer footer footer"
+        ;
+    }
+    .imagc{
+        height: 70vh;
+        width: 20vw;
+        display: inline-block;
+        margin-right: 10vw;
+    }
+    #i1{
+        size-adjust: 100%;
+    }
+
+    #sub{
+        width: 100vw;
+    }
+    input{
+        display: block;
+        margin: auto;
+    }
+    #abt{
+        width: 45vw;
+        display: inline-block;
+    }
+    #imgA{
+        width: 50vw;
+        display: inline-block;
+    }
+
+    .btn{
+        height: 25vh;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    #red{
+            width: 25%;
+            height: 25%;
+
+                
+    }
+    .fh2{
+        display: block;
+        margin: auto;
+    
+    }
+    .btn2{
+        display: block;
+        margin: auto;
+    }
+}

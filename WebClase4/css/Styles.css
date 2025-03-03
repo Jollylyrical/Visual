@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#dos{
+    background-color: red;
+}
+
+#fondo-verde{
+    background-color: green;
+}

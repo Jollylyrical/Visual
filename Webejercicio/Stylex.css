@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#a{
+    background-color: lightblue;
+}
+
+#a1{
+    background-color: blue;
+}
+
+#a2{
+    background-color: deepskyblue;
+
+}
+
+#a3{
+    background-color: lightblue;
+
+}
+
+#a4{
+    background-color: aliceblue;
+}
+
+#B {
+    background-color: azure;
+}
+
+#B2{
+    background-color: blue;
+}
+
+#C{
+    background-color: azure;
+}
+#C2{
+    background-color: blue;
+}
+
+#D{
+    background-color: azure;
+}
+#D2{
+    background-color: blue;
+}
+
+footer{
+    background-color: deepskyblue;
+}
+
+#Container{
+    height: 400vh;
+    width: 100vw;
+    border: solid black;
+}
+
+
+header{
+    border: solid gray;
+    width: 100vw;
+    height: 100vh;
+}
+.a{
+    border: solid gray;
+    width: 100vw;
+    height: 25vh;
+}
+
+.letra{
+    border: solid gray;
+    width: 100vw;
+    height: 25vh;
+}
+
+
+aside{
+    border: solid gray;
+    width: 100vw;
+    height: 25vh;
+}
+footer{
+    border: solid gray;
+    width: 100vw;
+    height: 50vh;
+}
+
+
+@media (min-width: 600px) and (max-width:1023px){
+#Container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "minicont minicont minicont"
+    "minicont2 minicont2 aside"
+    "footer footer footer";
+
+    grid-template-rows: ¡1fr;
+    grid-template-columns: 30px 100px auto 15%;
+}
+
+aside{
+    grid-area: aside;
+    height: 25vh;
+    width:  50vw;
+
+}
+
+header{
+    grid-area: header;
+}
+.a{
+    width: 50vw;
+    height: 25vh;
+}
+
+#minicont{
+grid-area: minicont;
+width: 100vw;
+height: 50vh;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+
+
+.letra{
+    width: 50vw;
+    height: 50vh;
+}
+#minicont2{
+    grid-area: minicont2;
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer{
+    grid-area: footer;
+}
+}
+
+@media (min-width: 1024px) and (max-width:2150px){
+    #Container{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "minicont minicont minicont"
+        "minicont2 minicont2 aside"
+        "footer footer footer";
+    
+        grid-template-rows: ¡1fr;
+        grid-template-columns: 30px 100px auto 15%;
+    }
+    
+    aside{
+        grid-area: aside;
+        height: 25vh;
+        width:  50vw;
+    
+    }
+    
+    header{
+        grid-area: header;
+    }
+    .a{
+        width: 25vw;
+        height: 50vh;
+    }
+    
+    #minicont{
+    grid-area: minicont;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    
+    
+    
+    .letra{
+        width: 50vw;
+        height: 50vh;
+    }
+    #minicont2{
+        grid-area: minicont2;
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    footer{
+        grid-area: footer;
+    }
+    }
