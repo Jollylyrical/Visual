@@ -4,4 +4,139 @@
     box-sizing: border-box;
 }
 
+#contful{
+    background-image: url(../Parrot_heliconia_\(Heliconia_psittacorum\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+#carouselExampleFade{
+    padding-top: 50px;
+}
+#cont2{
+
+ display: flex;
+ flex-direction: row;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    font-weight: bolder;   
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: green;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    margin-top: 10px;
+
+}
+
+.carousel-item{
+    height: 50vh;
+    width: 75vw;
+}
+
+.carousel-item img{
+    height: 50vh;
+    width: 75vw;
+}
+
+#contcar{
+    width: 75vw;
+    margin: auto;
+}
+
+
+.carousel-control-next-icon {
+    width: 50px; 
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+}
+
+.carousel-control-prev-icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+}
+#contbtns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#portad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.brand2 {
+    color: green !important; 
+    font-weight: bold; 
+}
+
+.imgbtn{
+    border: none; 
+    background: none; 
+    padding: 0; 
+    display: inline-block; 
+}
+
+
+.imgbtn{
+    width: 75vw;
+}
+
+.btns2{
+    width: 75vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#contbtn{
+
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+footer{
+    
+    background-color: lightgray;
+    padding-bottom: 10px;
+}
+
+.footbtn{
+    background: none;
+    border: none;
+   
+}
+
+
+.footbtn2{
+    background: none;
+    border: none;
+    text-decoration: underline;
+   
+}
+
+#imgicont{
+
+    height: 50px;
+    width: 50px;
+
+}
